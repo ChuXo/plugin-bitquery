@@ -1,5 +1,3 @@
-export * from "./types";
-
 import type { Plugin } from "@elizaos/core";
 ;
 import { factsProvider } from "./providers/facts";
@@ -12,14 +10,14 @@ import { getTokenChartAction } from "./actions/chart";
 export const bitqueryPlugin: Plugin = {
     name: "bitquery",
     description: "Bitquery integration plugin for onchain data and more",
-    providers: [factsProvider], // onchainProvider, factsProvider, toptokenProvider
+    providers: [factsProvider], // optional add "onchainProvider"
     evaluators: [],
     services: [],
     actions: [
         getTopTokensByVolAction,
         getLatestPairsAction,
         getTokenChartAction
-    ], // getTopTokensAction, transferAction, bridgeAction, swapAction
+    ], 
 };
 
 export default bitqueryPlugin;

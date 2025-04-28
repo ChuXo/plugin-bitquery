@@ -5,10 +5,6 @@
     "type": "module",
     "types": "dist/index.d.ts",
     "dependencies": {
-        "@elizaos/core": "workspace:*",
-        "@lifi/data-types": "5.15.5",
-        "@lifi/sdk": "3.4.1",
-        "@lifi/types": "16.3.0",
         "@openzeppelin/contracts": "^5.2.0",
         "bignumber.js": "9.1.2",
         "tsup": "8.3.5",
