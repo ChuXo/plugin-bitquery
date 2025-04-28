@@ -104,3 +104,6 @@ https://bitquery.io/
 Supported by Prisma AI (@prisma_finance on X) https://x.com/prisma_finance
 Dev (@DefiRatesNet on X) https://x.com/DefiRatesNet
 Powered by Bitquery (@bitquery_io on X) https://x.com/Bitquery_io
+
+## Licence
+MIT
