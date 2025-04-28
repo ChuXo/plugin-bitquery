@@ -42,16 +42,6 @@ BITQUERY_CLIENT_SECRET=
 
 Currently only "base", "ethereum", "bsc" are supported. More coming soon. (bsc is not supported for total supply and market cap)
 
-### Using the cache to control requests
-
-By default, the provider requests the latest on-chain data and injects it to the agent before replying to the user. To control the frequency of these requests, you can set the `CACHE_DURATION_MINUTES` settings variable.
-
-### Using custom RPC Url to fetch totalSupply and calculate marketcaps:
-
-By default, no totalsupply gets fetched and therefore no marketcap can be calculated. To activate the fetch of the totalsupply to calculate the marketcap, insert the INFURA_API_KEY into the secrets of env or the character config like above.
-
-Currently available for ethereum, bsc and base
-
 ## Actions
 
 Let the agent query on-chain transactions for you. Find tokens top performing tokens and more.
@@ -80,6 +70,16 @@ The name, symbol, 24h price change, and 24h volume and more are returned for the
 
 Add "onchainProvider" to providers in index file to activate.
 ---
+
+### Using the cache to control requests
+
+By default, the provider requests the latest on-chain data and injects it to the agent before replying to the user. To control the frequency of these requests, you can set the `CACHE_DURATION_MINUTES` settings variable.
+
+### Using custom RPC Url to fetch totalSupply and calculate marketcaps:
+
+By default, no totalsupply gets fetched and therefore no marketcap can be calculated. To activate the fetch of the totalsupply to calculate the marketcap, insert the INFURA_API_KEY into the secrets of env or the character config like above.
+
+Currently available for ethereum, bsc and base
 
 We work on the following additional actions:
 
