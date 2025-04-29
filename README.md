@@ -1,10 +1,10 @@
 # `@elizaos-plugins/plugin-bitquery`
 
+![alt text](https://github.com/ChuXo/plugin-bitquery/blob/main/assets/banner.png?raw=true)
+
 This plugin provides actions (and providers) for interacting with chains.
 
 ---
-
-![alt text](https://github.com/ChuXo/plugin-bitquery/blob/main/assets/banner.png?raw=true)
 
 ## Configuration
 
