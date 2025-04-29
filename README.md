@@ -4,6 +4,8 @@ This plugin provides actions (and providers) for interacting with chains.
 
 ---
 
+![alt text](https://github.com/ChuXo/plugin-bitquery/blob/main/assets/banner.png?raw=true)
+
 ## Configuration
 
 For windows wsl2 ubuntu some problems can occur, use node 22.12.2 (but first try 23.3.0)
@@ -57,6 +59,8 @@ Call actions with:
   
   Available timeperiods: ["1h", "3h", "24h", "7d", "30d", "1y"]. Default is "24h".
   Available chains [Ethereum, BSC, Base]
+
+![alt text](https://github.com/ChuXo/plugin-bitquery/blob/main/assets/screenshots/screenshot1.png?raw=true)
 
 ## Provider
 
